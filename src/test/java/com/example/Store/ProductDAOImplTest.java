@@ -150,7 +150,7 @@ public class ProductDAOImplTest {
             product1.setId(1001L);
             product1.setName("Byd Han");
             product1.setPrice(1_880_000.0);
-            product1.setDescription("Доставка по городу Бишкек – Бесплатная. Доставка по КР обговаривается отдельно.");
+            product1.setDescription("Delivery within the city is free.");
             product1.setProductAvailability(ProductAvailability.AVAILABLE);
             product1.setSale(true);
             product1.setPriceSale(5.0);

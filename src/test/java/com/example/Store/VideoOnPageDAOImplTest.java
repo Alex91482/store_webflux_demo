@@ -17,7 +17,7 @@ public class VideoOnPageDAOImplTest {
     public void saveTest(){
         var dao = new VideoOnPageDAOImpl();
         var video = new VideoOnPage();
-        var fileName = "New 2023 EM1 e_ Electric Scooter.mp4";
+        var fileName = "videos2.mp4";
         var sb = new StringBuilder()
                 .append("..").append(File.separator)
                 .append("raw").append(File.separator)

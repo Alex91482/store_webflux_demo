@@ -11,7 +11,7 @@ public class ImageServiceTest {
     public void searchFileToDirectoryTest(){
         try {
             ImageService imageService = new ImageService();
-            byte[] arr = imageService.getImage("spongeBob.png").block();
+            byte[] arr = imageService.getImage("images1.png").block();
             Thread.sleep(100);
             System.out.println(arr.length);
 
